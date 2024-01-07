@@ -7,7 +7,9 @@ import {
   Link,
 } from "react-router-dom";
 
-import App from "./App.jsx";
+import App from "./App";
+import About from "./pages/About/About";
+import Shop from "./pages/Shop/Shop";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -17,11 +19,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <h1>About</h1>,
+    element: <About />,
   },
   {
     path: "/shop",
-    element: <h1>Shop</h1>,
+    element: <Shop />,
   },
 ]);
 
