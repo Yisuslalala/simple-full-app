@@ -13,6 +13,10 @@ app.get("/", (req, res) => {
   res.send("Hello world");
 });
 
+app.get("/", (req, res) => {
+  const q = "";
+});
+
 app.get("/shop", (req, res) => {
   const q = "SELECT * FROM products";
   db.query(q, (err, result) => {

@@ -1,0 +1,10 @@
+.home-container {
+  width: 80%;
+  margin: auto;
+}
+
+.home-images-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
