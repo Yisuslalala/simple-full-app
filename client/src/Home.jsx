@@ -1,8 +1,7 @@
+import "./Home.css";
 import Navbar from "./layouts/Navbar/Navbar";
 
-import "./App.css";
-
-function App() {
+function Home() {
   return (
     <main>
       <Navbar />
@@ -11,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
