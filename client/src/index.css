@@ -1,0 +1,13 @@
+:root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background: rgb(253, 253, 127);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
