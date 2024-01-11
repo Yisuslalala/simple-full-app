@@ -9,15 +9,23 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get("/", (_, res) => {
   res.send("Hello world");
 });
 
-app.get("/", (req, res) => {
-  const q = "";
+app.get("/latest", (req, res) => {
+  const q =
+    "SELECT name, description, price, type FROM products ORDER BY created_at DESC LIMIT 1";
+  db.query(q, (err, result) => {
+    if (err) {
+      console.err(err);
+    } else {
+      res.send(result);
+    }
+  });
 });
 
-app.get("/shop", (req, res) => {
+app.get("/shop", (_, res) => {
   const q = "SELECT * FROM products";
   db.query(q, (err, result) => {
     if (err) {
