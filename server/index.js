@@ -13,7 +13,7 @@ app.get("/", (_, res) => {
   res.send("Hello world");
 });
 
-app.get("/latest", (req, res) => {
+app.get("/latest", (_, res) => {
   const q =
     "SELECT name, description, price, type FROM products ORDER BY created_at DESC LIMIT 1";
   db.query(q, (err, result) => {
