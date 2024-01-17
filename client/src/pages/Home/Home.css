@@ -1,5 +1,5 @@
 .container {
-  --max-width: 1280px;
+  --max-width: 1110px;
   --padding: 1rem;
   width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
@@ -10,14 +10,46 @@
   gap: 1rem;
 }
 
-.main-image {
-  width: 90%;
-  margin-inline: auto;
+.image-container {
+  margin-inline: 1rem;
+  width: 80%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.inverted-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  order: 3;
+}
+
+.text {
+  order: 1;
+}
+
+.button {
+  order: 2;
 }
 
 @media (min-width: 50em) {
   .columns {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+  }
+  .image-container {
+    padding: 0.5rem;
+    width: 80%;
+  }
+  .text {
+    order: 2;
+  }
+  .button {
+    order: 3;
+  }
+  .image {
+    order: 1;
   }
 }

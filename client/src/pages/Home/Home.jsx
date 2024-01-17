@@ -1,10 +1,18 @@
+import fakeProducts from "../../utilities/fakeProducts";
+
 import "./Home.css";
 
-import MainImage from "../../assets/MainImage.jpg";
-import MainImageFixed from "../../assets/MainImageFixed.jpg";
-import MainImageSecondFix from "../../assets/MainImageSecondFix.jpg";
+import FirstImage from "../../assets/FirstImage.jpg";
+import SecondImage from "../../assets/SecondImage.jpg";
 
 const Home = () => {
+  const products = fakeProducts.map((product) => (
+    <div key={product.id}>
+      <p>{product.name}</p>
+      <p>{product.price}</p>
+      <img src={product.url} alt={product.name} />
+    </div>
+  ));
   return (
     <main>
       <section className="padding-block-900">
@@ -13,14 +21,21 @@ const Home = () => {
             <div>
               <h1 className="primary-heading fw-bold">ajad jewelry shop</h1>
               <p>En Ajad, la elegancia cobra vida con un brillo único.</p>
-              <button>Tienda</button>
+              <div className="image-container">
+                <img src={FirstImage} alt="MainImage" className="image" />
+              </div>
             </div>
-            <div>
-              <img
-                src={MainImageSecondFix}
-                alt="MainImage"
-                className="main-image"
-              ></img>
+            <div className="inverted-column">
+              <div className="image-container image">
+                <img src={SecondImage} alt="SecondImage" className="image" />
+              </div>
+              <p className="fw-semi-bold text">
+                Descubre el arte de la elegancia en Ajad, donde cada joya es una
+                obra maestra que ilumina tu estilo con un brillo excepcional.
+              </p>
+              <div className="button">
+                <button>Tienda</button>
+              </div>
             </div>
           </div>
         </div>
@@ -29,9 +44,7 @@ const Home = () => {
       <section>
         <div className="container">
           <div className="home-images-wrapper">
-            <div className="product">lorem</div>
-            <div className="product">lorem</div>
-            <div className="product">lorem</div>
+            <>{products}</>
           </div>
         </div>
       </section>
