@@ -72,5 +72,6 @@
 
 .button:hover,
 .button:focus-visible {
-  background-color: var(--clr-accent-300);
+  color: var(--clr-accent-400);
+  background-color: var(--clr-accent-100);
 }

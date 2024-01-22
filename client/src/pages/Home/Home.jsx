@@ -21,7 +21,7 @@ const Home = () => {
             <div>
               <div>
                 <h1 className="primary-heading fw-bold">ajad jewelry shop</h1>
-                <p className="padding-400">
+                <p className="padding-400 fs-650">
                   En Ajad, la elegancia cobra vida con un brillo único.
                 </p>
               </div>
@@ -34,7 +34,7 @@ const Home = () => {
                 <img src={SecondImage} alt="SecondImage" className="image" />
               </div>
               <div className="inverted-text">
-                <p className="fw-semi-bold padding-400">
+                <p className="fw-semi-bold padding-400 fs-650">
                   Descubre el arte de la elegancia en Ajad, donde cada joya es
                   una obra maestra que ilumina tu estilo con un brillo
                   excepcional.
