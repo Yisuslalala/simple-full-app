@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar-container">
       <ul className="menu">
         <NavbarItem itemName={"Home"} path={"/"} />
         <NavbarItem itemName={"About"} path={"/about"} />

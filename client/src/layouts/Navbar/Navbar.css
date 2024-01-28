@@ -1,0 +1,13 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu {
+  font-size: var(--fs-nav);
+}
