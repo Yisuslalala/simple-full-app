@@ -1,13 +1,22 @@
 .navbar-container {
+  height: var(--size-900);
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--clr-accent-900);
 }
 
 .menu a {
   text-decoration: none;
+  padding: 1.5rem;
+  color: var(--clr-neutral-100);
+  font: var(--ff-primary);
 }
 
 .menu {
   font-size: var(--fs-nav);
+}
+
+.vertical-menu {
+  display: grid;
 }
