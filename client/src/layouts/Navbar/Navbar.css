@@ -1,3 +1,8 @@
+header {
+  position: relative;
+  width: 100%;
+}
+
 .navbar-container {
   height: var(--size-900);
   background-color: var(--clr-accent-900);
@@ -10,6 +15,11 @@
   justify-content: space-around;
   padding-top: 1.5rem;
 }
+
+.logo {
+  max-width: var(--size-800);
+}
+
 .menu a {
   text-decoration: none;
   padding: 1.5rem;
@@ -23,4 +33,24 @@
 
 .vertical-menu {
   display: grid;
+}
+
+.img-container {
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-cart {
+  color: var(--clr-neutral-100);
+}
+
+@media (max-width: 50em) {
+  .menu {
+    font-size: var(--fs-300);
+  }
+  .menu a {
+    padding: 0.5rem;
+  }
 }
