@@ -1,11 +1,13 @@
-import fakeProducts from "../../utilities/fakeProducts";
+import { ProductList } from "../../components/ProdutList/ProductList";
 
 import "./Home.css";
 
 import FirstImage from "../../assets/FirstImage.jpg";
 import SecondImage from "../../assets/SecondImage.jpg";
 
+const URL = "https://jsonplaceholder.typicode.com/users";
 const Home = () => {
+  /*
   const products = fakeProducts.map((product) => (
     <div key={product.id}>
       <p>{product.name}</p>
@@ -13,6 +15,8 @@ const Home = () => {
       <img src={product.url} alt={product.name} />
     </div>
   ));
+  */
+
   return (
     <main>
       <section className="padding-block-900">
@@ -51,7 +55,8 @@ const Home = () => {
       <section>
         <div className="container">
           <div className="home-images-wrapper">
-            <>{products}</>
+            <p>Hola</p>
+            <ProductList />
           </div>
         </div>
       </section>
