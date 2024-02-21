@@ -149,8 +149,17 @@ textarea:not([rows]) {
   font-weight: var(--fw-bold);
 }
 
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
+
 .primary-heading {
   font-size: var(--fs-primary-heading);
+  font-family: var(--ff-secondary);
+}
+
+.secondary-heading {
+  font-size: var(--fs-secondary-heading);
   font-family: var(--ff-secondary);
 }
 
