@@ -1,0 +1,15 @@
+.pl-images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.pl-item {
+  display: block;
+  border: 1px solid #000;
+}
+
+.pl-image {
+  border: 2px solid chocolate;
+  gap: 1rem;
+}
