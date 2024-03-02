@@ -1,4 +1,4 @@
-import { ProductList } from "../../components/ProdutList/ProductList";
+import { ProductList } from "../../components/ProductList/ProductList";
 
 import "./Home.css";
 
