@@ -43,9 +43,7 @@ const Home = () => {
 
       <section className="padding-block-900">
         <div className="container">
-          <div className="images-wrapper">
-            <ProductList />
-          </div>
+          <ProductList />
         </div>
       </section>
     </main>
