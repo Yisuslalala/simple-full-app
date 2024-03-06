@@ -194,3 +194,27 @@ textarea:not([rows]) {
 body {
   color: var(--clr-primary-400);
 }
+
+.color-accent-900 {
+  background-color: var(--clr-accent-900);
+}
+
+.color-accent-500 {
+  background-color: var(--clr-accent-500);
+}
+
+.color-accent-400 {
+  background-color: var(--clr-accent-400);
+}
+
+.color-accent-300 {
+  background-color: var(--clr-accent-300);
+}
+
+.color-accent-200 {
+  background-color: var(--clr-accent-200);
+}
+
+.color-accent-100 {
+  background-color: var(--clr-accent-100);
+}
