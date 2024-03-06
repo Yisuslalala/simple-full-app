@@ -41,7 +41,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="padding-block-900">
+      <section className="padding-block-900 ">
         <div className="container">
           <ProductList />
         </div>
