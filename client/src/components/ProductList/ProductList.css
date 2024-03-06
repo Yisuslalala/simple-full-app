@@ -1,15 +1,26 @@
 .pl-images {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 
-.pl-item {
-  display: block;
-  border: 1px solid #000;
+@media (min-width: 50em) {
+  .pl-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
 }
 
 .pl-image {
-  border: 2px solid chocolate;
-  gap: 1rem;
+  transition: transform 0.3s;
+}
+
+/* Hover */
+
+.pl-image:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
 }

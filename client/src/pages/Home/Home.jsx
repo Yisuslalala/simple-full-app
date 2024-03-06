@@ -41,7 +41,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section className="padding-block-900">
         <div className="container">
           <div className="images-wrapper">
             <ProductList />
