@@ -16,7 +16,7 @@ function InfoBox() {
             </p>
           </div>
           <div className="padding-top-400">
-            <p></p>
+            {/* TODO: Agregar imagen, preguntar a tita */}
           </div>
         </div>
       </div>
