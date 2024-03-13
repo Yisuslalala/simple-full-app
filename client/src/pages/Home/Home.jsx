@@ -4,6 +4,7 @@ import "./Home.css";
 
 import FirstImage from "../../assets/FirstImage.jpg";
 import SecondImage from "../../assets/SecondImage.jpg";
+import InfoBox from "../../components/InfoBox/InfoBox";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
                   En Ajad, la elegancia cobra vida con un brillo único.
                 </p>
               </div>
+
               <div className="image-container">
                 <img src={FirstImage} alt="MainImage" className="image" />
               </div>
@@ -26,6 +28,7 @@ const Home = () => {
               <div className="image-container inverted-image">
                 <img src={SecondImage} alt="SecondImage" className="image" />
               </div>
+
               <div className="inverted-text">
                 <p className="fw-semi-bold padding-400 fs-650">
                   Descubre el arte de la elegancia en Ajad, donde cada joya es
@@ -40,6 +43,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <InfoBox />
 
       <section className="padding-block-900 ">
         <div className="container">

@@ -5,6 +5,7 @@
   --clr-accent-300: hsl(105, 37%, 23%);
   --clr-accent-200: hsl(30, 44%, 40%);
   --clr-accent-100: hsl(46, 21%, 64%);
+  --clr-accent-50: hsl(43, 57%, 88%);
 
   --clr-primary-400: hsl(228, 39%, 23%);
 
@@ -217,4 +218,8 @@ body {
 
 .color-accent-100 {
   background-color: var(--clr-accent-100);
+}
+
+.color-accent-50 {
+  background-color: var(--clr-accent-50);
 }
