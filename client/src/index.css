@@ -146,6 +146,10 @@ textarea:not([rows]) {
   font-size: var(--fs-650);
 }
 
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
 .fw-bold {
   font-weight: var(--fw-bold);
 }
