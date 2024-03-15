@@ -7,9 +7,9 @@ function InfoBox() {
     <div className="padding-block-900 color-accent-50">
       <div className="container center-text">
         <h3 className="primary-heading">Joyería a tu medida</h3>
-        <div className="columns padding-400">
+        <div className="columns">
           <div className="center-text align-item-center">
-            <p className="fw-semi-bold fs-650">
+            <p className="fw-semi-bold fs-650 padding-top-500">
               "Adéntrate en el encanto eterno de nuestras joyas de calidad
               excepcional. Cada pieza refleja el amor y la dedicación de una
               familia que ha pasado generaciones perfeccionando su arte.
