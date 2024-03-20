@@ -1,3 +1,28 @@
+.footer-columns {
+  display: grid;
+  gap: 1rem;
+}
+
 .footer-text-color {
   color: beige;
+}
+
+.col {
+  border: 1px red solid;
+}
+
+.footer-icon-wrapper {
+  width: 4rem;
+  font-size: large;
+}
+
+/*.row {
+  background-color: blue;
+}
+*/
+@media (min-width: 50em) {
+  .footer-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
 }
