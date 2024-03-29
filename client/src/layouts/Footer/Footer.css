@@ -7,19 +7,27 @@
   color: beige;
 }
 
-.col {
-  border: 1px red solid;
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.footer-icon-wrapper {
-  width: 4rem;
-  font-size: large;
+.icon-item {
+  margin: 1rem;
 }
 
-/*.row {
-  background-color: blue;
+.links-wrapper {
+  display: grid;
+  gap: 0.875rem;
 }
-*/
+
+.buttom {
+  background-color: black;
+  font-size: var(--fs-600);
+}
+
 @media (min-width: 50em) {
   .footer-columns {
     grid-auto-flow: column;
